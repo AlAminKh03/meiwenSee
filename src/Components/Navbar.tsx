@@ -1,33 +1,31 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 
-type Props = {};
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [isScrollingUp, setIsScrollingUp] = useState(false);
-  const handleScroll = () => {
-    const currentScrollPos = window.pageYOffset;
-    setIsMobileMenuOpen(false);
+  // const [prevScrollPos, setPrevScrollPos] = useState(0);
+  // const [isScrollingUp, setIsScrollingUp] = useState(false);
+  // const handleScroll = () => {
+  //   const currentScrollPos = window.pageYOffset;
+  //   setIsMobileMenuOpen(false);
 
-    if (prevScrollPos < currentScrollPos) {
-      // Scrolling down
-      setIsScrollingUp(false);
-    } else {
-      // Scrolling up
-      setIsScrollingUp(true);
-    }
+  //   if (prevScrollPos < currentScrollPos) {
+  //     // Scrolling down
+  //     setIsScrollingUp(false);
+  //   } else {
+  //     // Scrolling up
+  //     setIsScrollingUp(true);
+  //   }
 
-    setPrevScrollPos(currentScrollPos);
-  };
+  //   setPrevScrollPos(currentScrollPos);
+  // };
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);

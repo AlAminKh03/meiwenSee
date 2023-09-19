@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const Wedding = (props: Props) => {
+const Wedding = () => {
   return (
     <div className="relative  md:h-[240px] lg:h-[520px] w-full px-[23px] py-[17px] md:pb-[400px] md:pt-[600px] md:px-[52px] mx-auto ">
       <div className="  w-full h-full flex flex-col items-center	justify-center  ">

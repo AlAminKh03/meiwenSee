@@ -1,5 +1,3 @@
-import React from "react";
-
 const Restaurent = () => {
   return (
     <div className="relative grid grid-cols-12 md:h-[240px] lg:h-[520px] w-full px-[23px] py-[17px] md:py-[100px] md:px-[52px] ">

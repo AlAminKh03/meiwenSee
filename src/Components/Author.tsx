@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const Author = (props: Props) => {
+const Author = () => {
   return (
     <div className="md:pb-[200px] md:px-[52px] pb-[50px] px-[23px]">
       <div>

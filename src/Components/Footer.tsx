@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div className="md:px-[52px] px-[23px] bg-white py-[23px] md:pt-[100px]">
       <div className=" border border-black min-w-full mt-[25px] md:mt-[100px] mb-[50px] md:mb-[150px]">

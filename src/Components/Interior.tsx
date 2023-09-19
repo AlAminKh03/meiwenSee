@@ -1,9 +1,7 @@
 import int1 from "../assets/first-interior.gif";
 import int2 from "../assets/second-interior.gif";
 
-type Props = {};
-
-const Interior = (props: Props) => {
+const Interior = () => {
   return (
     <div className="relative grid grid-cols-12 md:h-[538px] lg:h-[865px] w-full px-[23px] py-[35px] md:py-[500px] md:px-[52px] ">
       <div className=" col-end-auto md:col-end-13 w-full h-full col-span-12 md:col-span-8 grid grid-cols-12 gap-6">

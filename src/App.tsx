@@ -5,7 +5,6 @@ import Footer from "./Components/Footer";
 import HeadingTitle from "./Components/HeadingTitle";
 import HotelBranding from "./Components/HotelBranding";
 import Interior from "./Components/Interior";
-import Interiorpart2 from "./Components/Interiorpart2";
 import Menu from "./Components/Menu";
 import Navbar from "./Components/Navbar";
 import PhotoGraphy from "./Components/PhotoGraphy";

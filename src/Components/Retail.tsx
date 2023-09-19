@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const Retail = (props: Props) => {
+const Retail = () => {
   return (
     <div className="relative grid grid-cols-12 h-[480px] lg:h-[480px] w-full px-[23px] py-[17px] md:py-[300px] md:px-[52px] ">
       <div className=" md:col-end-13 w-full h-full col-span-12 md:col-span-4">

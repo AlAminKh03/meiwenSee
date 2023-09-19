@@ -1,6 +1,4 @@
-type Props = {};
-
-const Ceramics = (props: Props) => {
+const Ceramics = () => {
   return (
     <div className="relative grid grid-cols-12  md:h-[538px] lg:h-[890px] w-full px-[23px] py-[17px] md:py-[200px] md:px-[52px] ">
       <div className="w-full h-full col-span-12 md:col-span-8">
